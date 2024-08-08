@@ -161,7 +161,8 @@ class Snake:
         return {
             'head': (self.head.x, self.head.y),
             'food': (self.food.block.x, self.food.block.y),
-            'map': self.map.T
+            'map': self.map.T,
+            'score': self.score
         }
 
     def play(self, fps=10, acceleration=True, step=1, frep=10):
