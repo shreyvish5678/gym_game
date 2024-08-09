@@ -10,7 +10,7 @@ class Snake:
         max_step=500,
         init_length=4,
         food_reward=50.0,
-        dist_reward=None,
+        dist_reward=0.0,
         living_bonus=0.0,
         death_penalty=-1.0,
         width=40,
